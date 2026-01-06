@@ -65,7 +65,7 @@ def add_repo_collaborator(repo, user, auth)
         puts "- Requested action for not existing user \"#{user}\" ❌"
         return false
     else
-        if user != login then
+        if user.downcase != login.downcase then
             puts "- \"#{user}\" shall be provided as \"#{login}\" ❌"
             exit 1
         end
