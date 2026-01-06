@@ -1,8 +1,9 @@
-task-force-miscellanea:
-  hsp-iit/everyone:
+---
+fis-demos:
+  apprentices/202510:
     type: "group"
     permissions: "write"
 
-  edpr-iit/everyone:
+  apprentices/202601:
     type: "group"
     permissions: "write"

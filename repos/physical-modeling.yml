@@ -1,4 +1,0 @@
-physical-modeling:
-  hsp-iit/modeling:
-    type: "group"
-    permissions: "read"

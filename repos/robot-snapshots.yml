@@ -1,8 +1,0 @@
-robot-snapshots:
-  hsp-iit/ergocub:
-    type: "group"
-    permissions: "read"
-
-  edpr-iit/electronics:
-    type: "group"
-    permissions: "read"

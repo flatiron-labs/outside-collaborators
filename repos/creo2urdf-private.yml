@@ -1,8 +1,0 @@
-creo2urdf-private:
-  hsp-iit/sw-dev:
-    type: "group"
-    permissions: "read"
-
-  edpr-iit/sw-dev:
-    type: "group"
-    permissions: "read"
