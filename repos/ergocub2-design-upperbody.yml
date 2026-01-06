@@ -1,4 +1,0 @@
-ergocub2-design-upperbody:
-  hsp-iit/ergocub:
-    type: "group"
-    permissions: "read"

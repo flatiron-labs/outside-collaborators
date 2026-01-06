@@ -1,5 +1,0 @@
-ergocub2-design-hand:
-  hsp-iit/ergocub:
-    type: "group"
-    permissions: "read"
-

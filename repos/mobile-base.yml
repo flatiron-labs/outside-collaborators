@@ -1,9 +1,0 @@
-mobile-base:
-  hsp-iit/ergocub:
-    type: "group"
-    permissions: "read"
-
-  hrii-iit/ergocub-core:
-    type: "group"
-    permissions: "read"
-
