@@ -1,0 +1,5 @@
+---
+fis-demos:
+  apprentices/202601:
+    type: "group"
+    permissions: "write"
