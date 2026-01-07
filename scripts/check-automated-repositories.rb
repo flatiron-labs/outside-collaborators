@@ -37,7 +37,7 @@ def check_user(user, permissions)
         puts "- \"#{user}\" does not exist ❌"
         exit 1
     else
-        if user != login then
+        if user.downcase != login.downcase then
             puts "- \"#{user}\" shall be provided as \"#{login}\" ❌"
             exit 1
         end

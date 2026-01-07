@@ -76,13 +76,13 @@ end
 #########################################################################################
 def repo_member(repo_metadata, groups, user)
     if repo_metadata then
-        if repo_metadata.key?(user) then
+        if repo_metadata.keys.map(&:downcase).include?(user.downcase) then
             return true
         else
             repo_metadata.each { |item, props|
                 if (props["type"].casecmp?("group")) then
                     if groups.key?(item) then
-                        if groups[item].include?(user)
+                        if groups[item].map(&:downcase).include?(user.downcase)
                             return true
                         end
                     end
