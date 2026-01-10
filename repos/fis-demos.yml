@@ -1,9 +1,5 @@
 ---
 fis-demos:
-  apprentices/202510:
-    type: "group"
-    permissions: "write"
-
   apprentices/202601:
     type: "group"
     permissions: "write"
